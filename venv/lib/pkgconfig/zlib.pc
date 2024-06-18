@@ -1,0 +1,13 @@
+prefix=/Users/kartik/Development/funStuff/pythonLLMs/venv
+exec_prefix=/Users/kartik/Development/funStuff/pythonLLMs/venv
+libdir=/Users/kartik/Development/funStuff/pythonLLMs/venv/lib
+sharedlibdir=/Users/kartik/Development/funStuff/pythonLLMs/venv/lib
+includedir=/Users/kartik/Development/funStuff/pythonLLMs/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
